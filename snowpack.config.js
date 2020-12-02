@@ -9,9 +9,7 @@ module.exports = {
     '@snowpack/plugin-typescript',
     '@snowpack/plugin-webpack',
   ],
-  install: [
-    /* ... */
-  ],
+  install: ['normalize.css/normalize.css'],
   installOptions: {
     /* ... */
   },
