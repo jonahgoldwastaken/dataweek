@@ -5,6 +5,11 @@
 
 <style global>
   @import '../node_modules/normalize.css/normalize.css';
+  *,
+  *:before,
+  *:after {
+    user-select: none;
+  }
 </style>
 
 <h1>Dataweek</h1>
