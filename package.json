@@ -6,6 +6,8 @@
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.3.0",
     "@snowpack/plugin-typescript": "^1.1.0",
+    "@snowpack/plugin-webpack": "^2.1.1",
+    "@tsconfig/svelte": "^1.0.10",
     "prettier": "^2.2.1",
     "prettier-plugin-svelte": "^1.4.1",
     "sass": "^1.29.0",
