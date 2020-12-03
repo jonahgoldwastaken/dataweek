@@ -1,9 +1,7 @@
 <style>
   main {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: 8rem auto;
     width: 56rem;
     height: 44rem;
     display: grid;
@@ -16,7 +14,7 @@
 
   img {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 50.6%;
     left: 50%;
     transform: translate(-50%, -50%);

@@ -5,6 +5,7 @@
   export let top = '0px'
   export let left = '0px'
   export let dot: string = ''
+  export let alignLeft = false
 
   let articleOpen = false
 
@@ -22,12 +23,16 @@
     left: var(--left);
     z-index: 5;
   }
+
+  div.articleOpen {
+    z-index: 10;
+  }
 </style>
 
-<div style="--top: {top}; --left: {left}">
+<div style="--top: {top}; --left: {left}" class:articleOpen>
   <Dot img={dot} on:click={clickHandler} />
   {#if articleOpen}
-    <Article on:click={clickHandler}>
+    <Article left={alignLeft} on:click={clickHandler}>
       <slot />
     </Article>
   {/if}
