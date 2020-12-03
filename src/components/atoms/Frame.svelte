@@ -6,7 +6,9 @@
     transform: translate(-50%, -50%);
     width: 48rem;
     height: 36rem;
-    background: red;
+    display: grid;
+    grid-template-columns: 48rem;
+    grid-template-rows: 36rem;
   }
 </style>
 
