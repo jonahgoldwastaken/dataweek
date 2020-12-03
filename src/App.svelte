@@ -17,6 +17,9 @@
     pointer-events: none;
     font-family: 'Lora', serif;
   }
+  a {
+    pointer-events: all;
+  }
 </style>
 
 <Title>De Blauwburgwal - toen en nu</Title>
@@ -32,12 +35,16 @@
 <Introduction>
   Totaal zijn er 44 mensen overleden, 79 gewond geraakt en zijn er meerdere
   gebouwen volledig ingestort. Hier kunt u de verhalen van enkelen bekijken en
-  lezen. Met dank aan
-  <strong>Fred Geukes Foppen</strong>, wie deze verhalen heeft weten te
+  lezen. Met dank aan Fred Geukes Foppen, wie deze verhalen heeft weten te
   verzamelen. Hij heeft hier 2 boeken over geschreven (Bommen Op De Blauwburgwal
   & In Memoriam De Blauwburgwal 11 mei 1940) waar wij veel data uit hebben
-  gehaald om in een ander jasje aan U te presenteren. Als u meer over deze
-  mensen te weten wil komen kunt u de boeken van Fred Geukes Foppen vinden in de
-  stadsboekwinkel
+  gehaald om in een ander jasje aan U te presenteren. Als u meer over de
+  verhalen van deze mensen te weten wil komen kunt u de boeken van Fred Geukes
+  Foppen vinden in de
+  <a
+    href="https://www.stadsboekwinkel.nl/auteur/fred-geukes-foppen/"
+    target="_bank"
+    rel="noopener norferrer"
+  >stadsboekwinkel</a>.
 </Introduction>
 <Wall />

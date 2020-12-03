@@ -22,6 +22,7 @@
         aan de Blauwburgwal. Ze woonde met haar familie aan de Blauwburgwal 2 op
         de hoek met de Singel. Ze werd dodelijk gewond, onder het puin van de
         banketbakkerswinkel Nollen.
+        <img src="/bakker.jpg" alt="Foto van banketbakker Nollen" />
       </p>
     </Story>
     <Story alignLeft dot="/dot_old.png" top="370px" left="470px">
@@ -41,6 +42,7 @@
         bombardement in zijn café zwaar gewond geraakt en overgebracht naar het
         Wilhelmina Gasthuis waar hij vijf dagen later overleed.
       </p>
+      <img src="/cafe.jpg" alt="Foto van café Pelle" />
     </Story>
     <Story dot="/dot_old.png" top="200px" left="190px">
       <h2>Cornelis Gerardus Schavemaker</h2>
@@ -75,6 +77,7 @@
         aangezien Kees daar was gebracht, na hem te hebben gevonden. Alvorens de
         kist voor goed wordt gesloten, mogen we hem nog zien.’
       </p>
+      <img src="/kees.jpg" alt="Portretfoto van Kees Schavemaker" />
     </Story>
   </Section>
   <Slider />

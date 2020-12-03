@@ -51,6 +51,10 @@
     margin: 0px;
   }
 
+  :global(article img) {
+    width: 100%;
+  }
+
   button {
     all: unset;
     -webkit-appearance: none;
