@@ -12,7 +12,6 @@
   body {
     overflow: hidden;
     pointer-events: none;
-    background: url('/bg.png') no-repeat center/center fixed;
   }
 </style>
 

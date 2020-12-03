@@ -6,32 +6,55 @@
   function moveHandler(e: MouseEvent) {
     pageX = e.pageX
   }
+  $: console.log($progress, 'progress')
 </script>
 
 <style>
-  div {
+  .slider-container {
+    position: relative;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    width: 100%;
+    height: 100%;
+  }
+  .slider-container > div {
     --progress: 0%;
     position: absolute;
-    top: 0px;
-    bottom: 0px;
+    top: 0;
+    bottom: 0;
     left: var(--progress);
     width: 0.33rem;
-    background: white;
-    border: 1px solid black;
-    z-index: 10;
+    background: rgb(73, 35, 0);
+    z-index: 40;
   }
 
-  div span {
+  .slider-container > div span {
+    --height: 3.5rem;
+    --width: 10rem;
+    display: block;
     position: absolute;
-    bottom: -40px;
+    bottom: calc(var(--height) * -1.4);
     transform: translateX(-50%);
+    z-index: 50;
     cursor: col-resize;
+    height: var(--height);
+    width: var(--width);
     pointer-events: auto;
+  }
+
+  span img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    user-select: none;
+    pointer-events: none;
   }
 </style>
 
 <svelte:body on:mousemove={moveHandler} />
 
-<div use:slider={pageX} style="--progress: {$progress}%">
-  <span>Verschuif</span>
+<div class="slider-container">
+  <div use:slider={pageX} style="--progress: {$progress}%">
+    <span><img src="/slider.png" alt="Sleep mij!" /></span>
+  </div>
 </div>

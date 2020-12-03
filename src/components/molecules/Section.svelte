@@ -9,7 +9,7 @@
     position: relative;
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-    width: 100%;
+    box-shadow: inset 0px 9px 16px 0px rgba(0, 0, 0, 1);
   }
 </style>
 
