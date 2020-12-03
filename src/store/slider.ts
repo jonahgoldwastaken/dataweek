@@ -1,3 +1,3 @@
 import { writable } from 'svelte/store'
 
-export const progress = writable<number>(10)
+export const progress = writable<number>(5)

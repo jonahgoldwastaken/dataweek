@@ -12,8 +12,8 @@
   body {
     overflow: hidden;
     pointer-events: none;
+    font-family: 'Lora', serif;
   }
 </style>
 
-<h1>Dataweek</h1>
 <Wall />

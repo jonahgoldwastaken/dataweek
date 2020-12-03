@@ -4,6 +4,7 @@
 
   export let top = '0px'
   export let left = '0px'
+  export let dot: string = ''
 
   let articleOpen = false
 
@@ -24,9 +25,9 @@
 </style>
 
 <div style="--top: {top}; --left: {left}">
-  <Dot on:click={clickHandler} />
+  <Dot img={dot} on:click={clickHandler} />
   {#if articleOpen}
-    <Article on:close={clickHandler}>
+    <Article on:click={clickHandler}>
       <slot />
     </Article>
   {/if}
