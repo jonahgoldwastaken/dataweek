@@ -85,7 +85,7 @@
     image={{ src: '/after.jpg', alt: 'De Blauwburgwal, vredig en stil op 2 december 2020' }}
     clipPath="inset(0% 0% 0% {$progress}%)"
   >
-    <Story dot="/dot_new.png" top="50%" left="46%">
+    <Story dot="/dot_new.png" top="54%" left="34%">
       <h2>De Blauwburgwal nu</h2>
       <p>
         Op 2 December 2020 bezochten Jonah Meijers en Rosa Voogd de
