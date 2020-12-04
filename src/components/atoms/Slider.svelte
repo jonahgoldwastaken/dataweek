@@ -25,17 +25,17 @@
     bottom: 0;
     left: var(--progress);
     width: 0.33rem;
-    background: rgb(73, 35, 0);
+    background: #d8a278;
     z-index: 40;
   }
 
   .slider-container > div span {
-    --height: 3.5rem;
+    --height: 5rem;
     --width: 10rem;
     display: block;
     position: absolute;
-    bottom: calc(var(--height) * -1.4);
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: 50;
     cursor: col-resize;
     height: var(--height);
