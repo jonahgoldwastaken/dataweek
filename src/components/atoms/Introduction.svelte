@@ -6,7 +6,7 @@
 <style>
   p {
     font-family: Lora, serif;
-    width: 56rem;
+    width: 42rem;
     margin: 1em auto;
     font-size: 1rem;
     line-height: 1.5;
