@@ -19,6 +19,7 @@ export default function slider(node: HTMLElement, _: Params) {
   function offHandler() {
     progressing = false
   }
+
   return {
     update(pageX: Params) {
       if (progressing) {

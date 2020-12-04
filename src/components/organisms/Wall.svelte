@@ -15,7 +15,7 @@
     image={{ src: '/before.jpg', alt: 'De Blauwburgwal, verwoest door een bomaanslaag op 11 mei, 1940' }}
     clipPath="inset(0% {negativeProgress}% 0% 0%)"
   >
-    <Story dot="/dot_old.png" top="390px" left="190px">
+    <Story dot="/dot_old.png" top="70%" left="25%">
       <h2>Cecilia Maria Antonia Vos</h2>
       <p>
         Cecilia was op 11 mei 1940 gebakjes halen bij banketbakkerswinkel Nollen
@@ -25,7 +25,7 @@
         <img src="/bakker.jpg" alt="Foto van banketbakker Nollen" />
       </p>
     </Story>
-    <Story alignLeft dot="/dot_old.png" top="370px" left="470px">
+    <Story alignLeft dot="/dot_old.png" top="65%" left="60%">
       <h2>Johannes Pelle</h2>
       <p>
         Johannes, of Jopie zoals zijn vrienden en familie hem noemden om hem te
@@ -44,7 +44,7 @@
       </p>
       <img src="/cafe.jpg" alt="Foto van café Pelle" />
     </Story>
-    <Story dot="/dot_old.png" top="200px" left="190px">
+    <Story dot="/dot_old.png" top="36%" left="25%">
       <h2>Cornelis Gerardus Schavemaker</h2>
       <p>
         Kees, zoals hij in de familie werd genoemd woonde in Den Haag met zijn
@@ -85,7 +85,7 @@
     image={{ src: '/after.jpg', alt: 'De Blauwburgwal, vredig en stil op 2 december 2020' }}
     clipPath="inset(0% 0% 0% {$progress}%)"
   >
-    <Story dot="/dot_new.png" top="350px" left="354px">
+    <Story dot="/dot_new.png" top="50%" left="46%">
       <h2>De Blauwburgwal nu</h2>
       <p>
         Op 2 December 2020 bezochten Jonah Meijers en Rosa Voogd de

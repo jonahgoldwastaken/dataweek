@@ -3,8 +3,9 @@
   import slider from '../../actions/slider'
   let pageX = 0
 
-  function moveHandler(e: MouseEvent) {
-    pageX = e.pageX
+  function moveHandler(e: MouseEvent | TouchEvent) {
+    if ('touches' in e) pageX = e.touches[0].pageX
+    else pageX = e.pageX
   }
   $: console.log($progress, 'progress')
 </script>
@@ -51,7 +52,7 @@
   }
 </style>
 
-<svelte:body on:mousemove={moveHandler} />
+<svelte:body on:mousemove={moveHandler} on:touchmove={moveHandler} />
 
 <div class="slider-container">
   <div use:slider={pageX} style="--progress: {$progress}%">

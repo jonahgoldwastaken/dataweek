@@ -2,12 +2,12 @@
   main {
     position: relative;
     margin: 8rem auto;
-    width: 56rem;
-    height: 44rem;
+    width: 50.666666667rem;
+    height: 38rem;
     display: grid;
     background: #edeae4;
-    grid-template-columns: 48rem;
-    grid-template-rows: 36rem;
+    grid-template-columns: 42rem;
+    grid-template-rows: 30rem;
     align-content: center;
     justify-content: center;
   }
@@ -18,8 +18,8 @@
     top: 50.6%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 67rem;
-    height: 55.8rem;
+    width: 60rem;
+    height: 48rem;
     z-index: 20;
     object-fit: contain;
   }
